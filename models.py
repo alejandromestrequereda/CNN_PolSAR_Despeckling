@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 23 10:48:32 2024
+
+@author: Alejandro
+"""
+
 import scipy
 from preprocessing_polsar_data import *
 import numpy as np
@@ -16,6 +23,8 @@ from keras.optimizer_v2.adam import Adam
 from tensorflow.keras import layers, models, regularizers
 
 
+def sum_squared_error(y_true, y_pred):
+    return K.sum(K.square(y_pred - y_true))/2
 
 class DnCNN_Class:
     def __init__(self, flag_train):
@@ -51,5 +60,5 @@ class DnCNN_Class:
         layer_count += 1
         x = Subtract(name = 'subtract' + str(layer_count))([inpt, x])   # input - noise
         self.myModel = Model(inputs=inpt, outputs=x)
-        self.myModel.compile(loss=my_loss, metrics = [my_loss], optimizer=optim)
+        self.myModel.compile(loss=sum_squared_error, metrics = [sum_squared_error], optimizer=optim)
         print("DnCNN created")
