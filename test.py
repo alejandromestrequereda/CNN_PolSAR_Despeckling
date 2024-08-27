@@ -24,7 +24,7 @@ from keras.datasets import mnist
 from matplotlib import pyplot as plt
 import os
 import scipy
-from model_git import *
+from models import *
 import time
 
 def direct_c2_transform(Svv, Svh):
