@@ -7,9 +7,6 @@ Created on Fri Aug 23 10:47:02 2024
 
 import scipy.io as sio
 import numpy as np
-np.object = object
-np.bool = bool
-np.int = int
 import random
 import tensorflow as tf
 import keras
