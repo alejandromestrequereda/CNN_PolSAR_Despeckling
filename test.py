@@ -79,7 +79,7 @@ def inverse_c2_transform(C2_intensity):
 
 IMG_SIZE = 64
 
-# ----  Input Directory ----#
+# ----  Input Directory:  TO BE CHANGED BY THE USER  ----#
 dir_in = r"D:\Usuarios\Alejandro\Universidad\PolSAR2PolSAR\Murcia\test_image_git\data\\"
 
 
