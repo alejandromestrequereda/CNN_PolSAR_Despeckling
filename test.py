@@ -5,9 +5,8 @@ Created on Fri Aug 23 10:47:02 2024
 @author: Alejandro
 """
 
-import scipy.io as sio
+from preprocessing_polsar_data import *
 import numpy as np
-import random
 import tensorflow as tf
 import keras
 from keras.models import Sequential
@@ -22,8 +21,6 @@ from keras.callbacks import CSVLogger
 from keras.optimizer_v2.adam import Adam
 from keras.datasets import mnist
 from matplotlib import pyplot as plt
-import os
-import scipy
 from models import *
 import time
 
