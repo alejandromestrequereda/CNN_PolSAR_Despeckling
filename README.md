@@ -18,7 +18,7 @@ Complete testing/filtering code is provided in "test.py" file.
 
 Example of a Sentinel-1 dual-pol VV/VH image in SSC (complex) format is included in the /data folder (images are stored in a numpy array).
 
-The provided testing code reads the image, generates a modified version of the dual-pol covariance matrix having four real-valued intensities and filters all bands using the trained CNN, which is also provided for further evaluation by the community.
+The provided testing code reads the image, generates a modified version of the dual-pol covariance matrix having four real-valued intensities and filters all bands using the weights of the trained CNN, which are also provided ("DS_DnCNN_3TS_sumse.h5").
 
 ### Resources
 Paper Arxiv
