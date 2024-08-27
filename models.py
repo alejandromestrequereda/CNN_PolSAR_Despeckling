@@ -5,7 +5,7 @@ Created on Fri Aug 23 10:48:32 2024
 @author: Alejandro
 """
 
-import scipy
+
 from preprocessing_polsar_data import *
 import numpy as np
 import keras
