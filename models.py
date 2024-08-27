@@ -8,9 +8,6 @@ Created on Fri Aug 23 10:48:32 2024
 import scipy
 from preprocessing_polsar_data import *
 import numpy as np
-np.object = object
-np.bool = bool
-np.int = int
 import keras
 from keras import optimizers
 from keras import callbacks
