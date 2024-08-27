@@ -15,6 +15,7 @@ Speckle suppression in synthetic aperture radar (SAR) images is a key processing
 
 ### Resources
 Paper Arxiv
+Submitted to IEEE TGRS
 
 ### License
 The material is made available under the GNU General Public License v3.0: Copyright 2024, Alejandro Mestre Quereda, Juan Manuel López Sánchez, of SST Research Group - University of Alicante. All rights reserved.
