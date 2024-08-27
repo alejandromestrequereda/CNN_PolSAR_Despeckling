@@ -9,6 +9,7 @@ Speckle suppression in synthetic aperture radar (SAR) images is a key processing
 ![screenshot](img/polsar_cnn_scheme.png)
 
 ### Example (Before and After Filtering)
+R = VV, G = VH, B = VV/VH
 ![screenshot](img/Munich_RGB_Original.png)
 
 ![screenshot](img/Munich_RGB_CNN.png)
