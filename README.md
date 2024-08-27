@@ -6,6 +6,11 @@ Speckle suppression in synthetic aperture radar (SAR) images is a key processing
 
 ![screenshot](img/polsar_cnn_scheme.png)
 
+### Example
+![screenshot](img/Munich_RGB_Original.png)
+
+![screenshot](img/Munich_RGB_CNN.png)
+
 ### Resources
 Paper Arxiv
 
