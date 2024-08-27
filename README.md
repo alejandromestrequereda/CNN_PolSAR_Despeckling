@@ -13,6 +13,9 @@ Speckle suppression in synthetic aperture radar (SAR) images is a key processing
 
 ![screenshot](img/Munich_RGB_CNN.png)
 
+### Usage
+Complete testing/filtering code is provided in "testing.py" file.
+
 ### Resources
 Paper Arxiv
 
