@@ -14,8 +14,11 @@ Speckle suppression in synthetic aperture radar (SAR) images is a key processing
 ![screenshot](img/Munich_RGB_CNN.png)
 
 ### Usage
-Complete testing/filtering code is provided in "test.py" file. Example of a Sentinel-1 dual-pol VV/VH image in SSC (complex) format is provided in the /data folder (images are stored in a numpy array).
-The provided testing code reads the images, generates a modified version of the dual-pol covariance matrix having four real-valued intensities and filters all bands using the trained CNN.
+Complete testing/filtering code is provided in "test.py" file. 
+
+Example of a Sentinel-1 dual-pol VV/VH image in SSC (complex) format is included in the /data folder (images are stored in a numpy array).
+
+The provided testing code reads the image, generates a modified version of the dual-pol covariance matrix having four real-valued intensities and filters all bands using the trained CNN, which is also provided for further evaluation by the community.
 
 ### Resources
 Paper Arxiv
