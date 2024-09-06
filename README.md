@@ -22,7 +22,7 @@ Example of a Sentinel-1 dual-pol VV/VH image in SSC (complex) format is included
 The provided testing code reads the image, generates a modified version of the dual-pol covariance matrix having four real-valued intensities and filters all bands using the weights of the trained CNN, which are also provided ("DS_DnCNN_3TS_sumse.h5").
 
 ### Resources
-Prepring: https://arxiv.org/abs/2408.15678
+Preprint: https://arxiv.org/abs/2408.15678
 
 Submitted to IEEE TGRS
 
